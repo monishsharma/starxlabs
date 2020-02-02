@@ -21,8 +21,7 @@ getTime = () => {
 };
 
 //QUESTION 2
-
-function findXOR(n) {
+findXOR = (n) => {
   var mod = n % 4;
 
 
@@ -36,7 +35,7 @@ function findXOR(n) {
   else if (mod == 3) return 0;
 }
 
-function findXOR1() {
+findXOR1 = () => {
   var l = document.getElementById("num1").value;
   var r = document.getElementById("num2").value;
 
