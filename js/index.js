@@ -25,6 +25,7 @@ getTime = () => {
 function findXOR(n) {
   var mod = n % 4;
 
+
   // If n is a multiple of 4
   if (mod == 0) return n;
   // If n % 4 gives remainder 1
